@@ -1,0 +1,29 @@
+ * { 
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: 'bubblegum';
+    src: url(./font/BubblegumSans-Regular.ttf);
+}
+body{
+    background-image: url(./image/bg.jpg);
+}
+h1{
+    font-family: bubblegum; 
+    color: rgb(190, 85, 103);
+}
+.main{
+    width: 800px;
+    height: 30vh;
+    background: white;
+    padding: 25px 30px;
+    border: 5px solid #58252f;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+} 
